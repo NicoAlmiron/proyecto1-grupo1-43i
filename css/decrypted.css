@@ -1,0 +1,84 @@
+/* Familia de Fuentes desde: (https://fonts.google.com)
+font-family: 'Great Vibes', cursive; */
+
+/* Familia de Fuentes desde: (https://www.cdnfonts.com/)
+font-family: 'Bender', sans-serif; */
+
+/* Definicion de colores variables */
+:root {
+  --color1: #0b0d0f;
+  --color2: #16181f;
+  --color3: #cd9933;
+  --color4: #999966;
+  --color5: #000000;
+}
+
+/* Clases de Colores */
+.bg-dark {
+  background-color: var(--color1) !important;
+}
+.bg-black {
+  background-color: var(--color5) !important;
+}
+.color1 {
+  color: var(--color1) !important;
+}
+.color2 {
+  color: var(--color2) !important;
+}
+.color3 {
+  color: var(--color3) !important;
+}
+.color4 {
+  color: var(--color4) !important;
+}
+.color5 {
+  color: var(--color5) !important;
+}
+
+/* Titulo en Navbar */
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-family: "Bender", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Boton del NavBar */
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 0;
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+/* Fuentes */
+.GreatVives {
+  font-family: "Great Vibes", cursive;
+}
+.Bender {
+  font-family: "Bender", sans-serif;
+}
+.fs-7 {
+  font-size: 0.75rem;
+}
+.shadow {
+  text-shadow: 0.1rem 0.1rem 0.1rem black, 0.2rem 0.2rem 0.2rem black;
+}
+
+/* Titulos en Carrousel */
+.carousel-caption {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  left: 5%;
+  color: #fff;
+  text-align: left;
+}
