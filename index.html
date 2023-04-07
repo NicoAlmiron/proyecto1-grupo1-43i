@@ -44,9 +44,6 @@
                                 <button class="btn btn-outline-warning me-2 my-3 my-md-0" type="button">Inicia sesion</button>
                             </a>
                             <button class="btn btn-outline-success me-2 my-3 my-md-0" type="button" data-bs-toggle="modal" data-bs-target="#modalSuscripcion">Suscribete!</button>
-
-
-
                         </form>
                     </li>
                 </ul>
@@ -56,27 +53,38 @@
     <div class="modal fade" id="modalSuscripcion" tabindex="-1" aria-labelledby="suscripcionLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="suscripcionLabel">Suscribete a DECRYPTED</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-header bg-dark ">
+                    <h5 class="text-white">Decrypted
+                        <span style="font-size: 10px;color:#999966;">Café & Restó</span>
+                    </h5>
+                    <img src="/img/logonav.jpeg" alt="logo modal" class="logo-modal">
+                    <button type="button" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
                 </div>
                 <div class="modal-body">
-                    <div class="card mb-3 shadow">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Suscripcion <span class="badge bg-warning">Gratis!</span></h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, error?</p>
-                            <a href=""><button class="btn btn-success">Suscribirme</button></a>
+                    <div class="card mb-3 shadow m-4">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center card-modal">
+                            <h5 class="card-title text-center">Suscripcion <span class="badge bg-warning">Gratis!</span></h5>
+                            <ul>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Acceso ilimitado a nuestro contido</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Noticias destacadas y exclusivas</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-xmark me-2 text-danger"></i></i>Crear y compartir tus articulos</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-xmark me-2 text-danger"></i></i>Beneficios y Promociones</li>
+                            </ul>
+                            <a href="/pages/error404.html"><button class="btn btn-outline-success">Suscribirme</button></a>
                         </div>
                     </div>
-                    <div class="card mb-3 shadow">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Suscripcion <span class="badge bg-primary">Premium</span></h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, error?</p>
-                            <a href=""><button class="btn btn-success">Suscribirme</button></a>
+                    <div class="card mb-3 shadow m-4">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center card-modal">
+                            <h5 class="card-title text-center">Suscripcion <span class="badge bg-primary">Premium</span></h5>
+                            <ul>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Acceso ilimitado a nuestro contido</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Noticias destacadas y exclusivas</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i></i>Crear y compartir tus articulos</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i></i>Beneficios y Promociones</li>
+                            </ul>
+                            <a href="/pages/error404.html"><button class="btn btn-outline-success">Suscribirme</button></a>
                         </div>
                     </div>
-                </div>
-                <div class="modal-footer">
                 </div>
             </div>
         </div>
