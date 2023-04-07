@@ -43,13 +43,44 @@
                             <a href="/pages/login.html" class="text-decoration-none">
                                 <button class="btn btn-outline-warning me-2 my-3 my-md-0" type="button">Inicia sesion</button>
                             </a>
-                            <button class="btn btn-outline-success me-2 my-3 my-md-0" type="button">Suscribete!</button>
+                            <button class="btn btn-outline-success me-2 my-3 my-md-0" type="button" data-bs-toggle="modal" data-bs-target="#modalSuscripcion">Suscribete!</button>
+
+
+
                         </form>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <div class="modal fade" id="modalSuscripcion" tabindex="-1" aria-labelledby="suscripcionLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="suscripcionLabel">Suscribete a DECRYPTED</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="card mb-3 shadow">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Suscripcion <span class="badge bg-warning">Gratis!</span></h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, error?</p>
+                            <a href=""><button class="btn btn-success">Suscribirme</button></a>
+                        </div>
+                    </div>
+                    <div class="card mb-3 shadow">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Suscripcion <span class="badge bg-primary">Premium</span></h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, error?</p>
+                            <a href=""><button class="btn btn-success">Suscribirme</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
     <header></header>
     <main>
         <div id="carouselExample" class="carousel slide">
@@ -147,7 +178,7 @@
                     <div class="d-none d-md-flex">
                         <div>
                             <a href="/index.html">
-                                <img src="img/Decrypted-00.jpeg" alt="logo" class="card-img w-50">
+                                <img src="/img/Decrypted-00.jpeg" alt="logo" class="card-img w-50">
                             </a>
                         </div>
                     </div>
