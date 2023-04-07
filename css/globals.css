@@ -1,74 +1,83 @@
 :root {
-  --primary: #0b0d0f;
-  --secondary: #16181f;
-  --third: #cd9933;
-  --fourth: #999966;
-  --fondo: #efefef;
+    --primary: #0b0d0f;
+    --secondary: #16181f;
+    --third: #cd9933;
+    --fourth: #999966;
+    --fondo: #efefef;
 }
 
 .cabeza-pagina {
-  background-image: url("https://img.freepik.com/foto-gratis/ingredientes-italianos-apetitosos-frescos-sabrosos-comida-fondo-oscuro-listo-cocinar-inicio-italiano-comida-saludable-concepto-cocina-viraje_1220-1820.jpg?w=2000");
-  height: 40vh;
-  background-size: cover;
-  font-family: "bender-bold";
+    background-image: url("https://img.freepik.com/foto-gratis/ingredientes-italianos-apetitosos-frescos-sabrosos-comida-fondo-oscuro-listo-cocinar-inicio-italiano-comida-saludable-concepto-cocina-viraje_1220-1820.jpg?w=2000");
+    height: 40vh;
+    background-size: cover;
+    font-family: "bender-bold";
 }
 
 .title-page-img {
-  font-family: "Great Vibes";
-  font-size: 3rem;
+    font-family: "Great Vibes";
+    font-size: 3rem;
 }
 
 .subtitle-page-img {
-  color: var(--third);
+    color: var(--third);
 }
 
 .card-pageImg {
-  cursor: pointer;
-  border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .card-pageImg:hover {
-  background-color: var(--fourth);
-  transition: 1s;
+    background-color: var(--fourth);
+    transition: 1s;
 }
 
 .galeria {
-  background-color: var(--fondo);
+    background-color: var(--fondo);
 }
 
 .acercaDe {
-  background-image: url("https://thumbs.dreamstime.com/b/chef-con-guantes-y-una-bengala-de-delantal-sobre-sart%C3%A9n-en-cocina-restaurante-oscuro-profesional-plataforma-para-cocinar-fuego-172938669.jpg");
-  height: 40vh;
-  background-size: cover;
+    background-image: url("https://thumbs.dreamstime.com/b/chef-con-guantes-y-una-bengala-de-delantal-sobre-sart%C3%A9n-en-cocina-restaurante-oscuro-profesional-plataforma-para-cocinar-fuego-172938669.jpg");
+    height: 40vh;
+    background-size: cover;
 }
 
 .titulo-acercade {
-  color: white;
-  font-family: "Great Vibes";
-  font-size: 3rem;
+    color: white;
+    font-family: "Great Vibes";
+    font-size: 3rem;
 }
 
 .login {
-  background-image: url("https://media.istockphoto.com/id/1191675284/es/foto/mesa-de-madera-real-vac%C3%ADa-con-reflexi%C3%B3n-ligera-sobre-la-escena-en-el-restaurante-pub-o-bar-por.jpg?s=612x612&w=0&k=20&c=hubFY0hfHFjHVf0NwrDslYEaGOwss_E4rbCIsfNpdKw=");
-  height: 40vh;
-  background-size: cover;
+    background-image: url("https://media.istockphoto.com/id/1191675284/es/foto/mesa-de-madera-real-vac%C3%ADa-con-reflexi%C3%B3n-ligera-sobre-la-escena-en-el-restaurante-pub-o-bar-por.jpg?s=612x612&w=0&k=20&c=hubFY0hfHFjHVf0NwrDslYEaGOwss_E4rbCIsfNpdKw=");
+    height: 40vh;
+    background-size: cover;
 }
 
 .titulo-login {
-  font-family: "great vibes";
-  font-size: 6rem;
+    font-family: "great vibes";
+    font-size: 6rem;
 }
 
 .header-login {
-  background-image: url("https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudCUyMHdpbmRvd3xlbnwwfHwwfHw%3D&w=1000&q=80");
-  height: 50vh;
-  background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudCUyMHdpbmRvd3xlbnwwfHwwfHw%3D&w=1000&q=80");
+    height: 50vh;
+    background-size: cover;
 }
 
 .logo-modal {
-  height: 2.5rem;
+    height: 2.5rem;
 }
 
 .header-index {
-  height: 50vh;
+    height: 50vh;
+}
+
+.card-index {
+    cursor: pointer;
+    border: #efefef solid 2px;
+}
+
+.card-index:hover {
+    border: var(--third) solid 4px;
 }
