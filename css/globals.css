@@ -73,16 +73,8 @@
   height: 50vh;
 }
 
-.bg-section-index {
-  background-color: #999966;
-}
-
 .bg-card {
   background-color: #7c7c7c !important;
-}
-
-.bg-card-index {
-  background-color: #bdbdbd;
 }
 
 .header-contacto {
@@ -176,4 +168,8 @@
   color: #000;
   background-color: var(--fourth);
   border-color: var(--fourth);
+}
+
+.page-link {
+  background-color: rgb(24, 24, 24) !important;
 }
