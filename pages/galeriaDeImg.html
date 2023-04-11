@@ -4,30 +4,32 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/bender" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/405d5358c0.js" crossorigin="anonymous"></script>
-    <title>DECRYPTED</title>
+    <title>Galeria De Imagenes</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-md-top">
+<body class="bg-black">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-md-top robotocondensed">
         <div class="container-fluid">
             <div>
-                <img style="width: 2rem" src="/img/logonav.jpeg" alt="logo nav">
+                <img style="width: 2rem" src="/img/logonav.png" alt="logo nav">
             </div>
-            <a class="navbar-brand" href="/index.html">
-                Decrypted 
-                <span style="font-size: 10px;color:#999966;">Café & Restó</span>
+            <a class="navbar-brand bender" href="/index.html">Decrypted
+                <span style="font-size: 10px;color:#999966;"> Café & Restó</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" , data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 ms-lg-auto">
                     <li class="nav-item">
@@ -37,7 +39,7 @@
                         <a class="nav-link" aria-current="page" href="/pages/galeriaDeImg.html">Galería de imágenes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/pages/contacto.html">Contáctanos</a>
+                        <a class="nav-link" aria-current="page" href="/pages/contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="/pages/acercaDe.html">Acerca de Nosotros</a>
@@ -45,9 +47,9 @@
                     <li class="nav-item">
                         <form class="container-fluid justify-content-start">
                             <a href="/pages/login.html" class="text-decoration-none">
-                                <button class="btn btn-outline-warning me-2 my-3 my-md-0" type="button">Inicia sesión</button>
+                                <button class="btn btn-outline-warning me-2 my-3 my-md-0" type="button">Iniciar sesión</button>
                             </a>
-                            <button class="btn btn-outline-success me-2 my-3 my-md-0" type="button" data-bs-toggle="modal" data-bs-target="#modalSuscripcion">Suscribete!</button>
+                            <button class="btn btn-outline-warning me-2 my-3 my-md-0" type="button" data-bs-toggle="modal" data-bs-target="#modalSuscripcion">Suscripción</button>
                         </form>
                     </li>
                 </ul>
@@ -56,39 +58,87 @@
     </nav>
     <div class="modal fade" id="modalSuscripcion" tabindex="-1" aria-labelledby="suscripcionLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header bg-dark ">
-                    <h5 class="text-white">Decrypted
-                        <span style="font-size: 10px;color:#999966;">Café & Restó</span>
-                    </h5>
-                    <img src="/img/logonav.jpeg" alt="logo modal" class="logo-modal">
-                    <button type="button" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
-                </div>
-                <div class="modal-body">
-                    <div class="card mb-3 shadow m-4">
+            <div class="modal-content bg-dark">
+                <div class="modal-body text-white">
+                    <div class="container d-flex justify-content-between align-items-center mb-4">
+                        <h5 class="text-white">Decrypted
+                            <span style="font-size: 10px;color:#999966;">Café & Restó</span>
+                        </h5>
+                        <img src="/img/logonav.png" alt="logo modal" class="logo-modal">
+                        <button type="button" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                    </div>
+                    <div class="card mb-3 m-4 bg-card">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center card-modal">
-                            <h5 class="card-title text-center">Suscripcion <span class="badge bg-warning">Gratis!</span></h5>
+                            <h5 class="card-title text-center">Suscripción <span class="badge bg-warning text-black-50">Gratis!</span></h5>
                             <ul>
-                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Acceso ilimitado a nuestro contido</li>
-                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Noticias destacadas y exclusivas</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-primary"></i>Acceso ilimitado a nuestro contido</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-primary"></i>Noticias destacadas y exclusivas</li>
                                 <li class="card-text my-3"><i class="fa-solid fa-xmark me-2 text-danger"></i></i>Crear y compartir tus articulos</li>
                                 <li class="card-text my-3"><i class="fa-solid fa-xmark me-2 text-danger"></i></i>Beneficios y Promociones</li>
                             </ul>
-                            <a href="/pages/error404.html"><button class="btn btn-outline-success">Suscribirme</button></a>
+                            <button class="btn btn-success me-2 my-3 my-md-0" type="button" data-bs-toggle="modal" data-bs-target="#modalSuscripcion2">Suscribirme</button>
                         </div>
                     </div>
-                    <div class="card mb-3 shadow m-4">
+                    <div class="card mb-3 m-4 bg-card">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center card-modal">
-                            <h5 class="card-title text-center">Suscripcion <span class="badge bg-primary">Premium</span></h5>
+                            <h5 class="card-title text-center">Suscripción <span class="badge bg-primary">Premium</span></h5>
                             <ul>
-                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Acceso ilimitado a nuestro contido</li>
-                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Noticias destacadas y exclusivas</li>
-                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i></i>Crear y compartir tus articulos</li>
-                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i></i>Beneficios y Promociones</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-primary"></i>Acceso ilimitado a nuestro contido</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-primary"></i>Noticias destacadas y exclusivas</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-primary"></i></i>Crear y compartir tus articulos</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-primary"></i></i>Beneficios y Promociones</li>
                             </ul>
-                            <a href="/pages/error404.html"><button class="btn btn-outline-success">Suscribirme</button></a>
+                            <button class="btn btn-success me-2 my-3 my-md-0" type="button" data-bs-toggle="modal" data-bs-target="#modalSuscripcion2">Suscribirme</button>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalSuscripcion2" tabindex="-1" aria-labelledby="suscripcionLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark">
+                <div class="modal-body text-white">
+                    <div class="container d-flex justify-content-between align-items-center mb-4">
+                        <h5 class="text-white">Decrypted
+                            <span style="font-size: 10px;color:#999966;">Café & Restó</span>
+                        </h5>
+                        <img src="/img/logonav.png" alt="logo modal" class="logo-modal">
+                        <button type="button" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                    </div>
+                    <form>
+                        <form class="row">
+                            <div class="col mt-3">
+                                <label for="ingresoNombre" class="form-label text-white">Nombre</label>
+                                <input type="text" class="form-control" id="ingresoNombre" placeholder="Ej. Sebastian" aria-label="Ej. Sebastian">
+                            </div>
+                            <div class="col mt-3">
+                                <label for="ingresoApellido" class="form-label text-white">Apellido</label>
+                                <input type="text" class="form-control" id="ingresoApellido" placeholder="Ej. Hernandez" aria-label="Ej. Hernandez">
+                            </div>
+                            <div class="col mt-3">
+                                <label for="ingresoEmail" class="form-label text-white">Correo</label>
+                                <input type="email" class="form-control" id="ingresoEmail" placeholder="Ejemplo222@gmail.com">
+                            </div>
+                            <div class="col mt-3">
+                                <label for="ingresoContraseña" class="form-label text-white">Contraseña</label>
+                                <input type="password" class="form-control" id="ingresoContraseña">
+                            </div>
+                            <div class="col mt-3">
+                                <p></p>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" value="" id="checkAcuerdos">
+                                    <label for="checkAcuerdos" class="form-check-label text-white">Acepto los términos y condiciones</label>
+                                </div>
+                            </div>
+                        </form>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a href="/pages/error404.html" class="text-decoration-none">
+                        <button type="button" class="btn btn-success">Suscribirme</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -100,11 +150,11 @@
         </div>
     </header>
     <main>
-        <section class="d-flex flex-column justify-content-center align-items-center text-center mx-4 my-5">
-            <p class="fs-3">Especialidades DECRYPTED</p>
-            <p>Cocinado por los mejores cheff´s, para los paladares mas exigentes.</p>
+        <section class="container-fluid d-flex flex-column justify-content-center align-items-center text-center py-5 galeria">
+            <p class="fs-3 text-white">Especialidades <span class="text-warning">Decrypted</span></p>
+            <p class="text-secondary">Cocinado por los mejores cheff´s, para los paladares mas exigentes.</p>
         </section>
-        <section class="d-flex flex-column flex-md-row flex-wrap align-items-center p-md-4 galeria">
+        <section class="d-flex flex-column flex-md-row flex-wrap align-items-center p-md-4">
             <div class="my-2 mx-4 my-md-3 mx-md-0 col-md-6 p-md-5 col-lg-3 card-pageImg">
                 <img src="https://p1.pxfuel.com/preview/800/666/533/meal-sauce-restaurant-plate.jpg" class="img-fluid" alt="comida">
             </div>
@@ -149,7 +199,7 @@
             <div class="row p-5 pb-2 bg-dark text-white">
                 <div class="col-12 col-md-6 col-lg-4 mt-5 text-center">
                     <div class="d-md-none">
-                        <img style="width: 2rem" src="/img/logonav.jpeg" alt="logo nav" class="mx-2">
+                        <img style="width: 2rem" src="/img/logonav.png" alt="logo nav">
                         <a class="text-decoration-none" href="/index.html">
                             <span class="text-white">Decrypted</span>
                             <span style="font-size: 10px;color:#999966;" class="d-none d-md-block">Café & Restó</span>

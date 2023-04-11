@@ -5,6 +5,7 @@ font-family: 'Great Vibes', cursive; */
 font-family: 'Bender', sans-serif; */
 
 /* Definicion de colores variables */
+
 :root {
   --color1: #0b0d0f;
   --color2: #16181f;
@@ -15,32 +16,41 @@ font-family: 'Bender', sans-serif; */
 }
 
 /* Clases de Colores */
+
 .bg-dark {
   background-color: var(--color1) !important;
 }
+
 .bg-black {
   background-color: var(--color5) !important;
 }
+
 .color1 {
   color: var(--color1) !important;
 }
+
 .color2 {
   color: var(--color2) !important;
 }
+
 .color3 {
   color: var(--color3) !important;
 }
+
 .color4 {
   color: var(--color4) !important;
 }
+
 .color5 {
   color: var(--color5) !important;
 }
+
 .color6 {
   color: var(--color6) !important;
 }
 
 /* Titulo en Navbar */
+
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
@@ -53,6 +63,7 @@ font-family: 'Bender', sans-serif; */
 }
 
 /* Boton del NavBar */
+
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1rem;
@@ -64,38 +75,47 @@ font-family: 'Bender', sans-serif; */
 }
 
 /* Tipografia */
+
 .GreatVives {
   font-family: "Great Vibes", cursive;
 }
+
 .Bender {
   font-family: "Bender", sans-serif;
 }
+
 .fs-7 {
   font-size: 0.75rem;
 }
+
 @media (min-width: 360px) {
   .fs-7 {
     font-size: calc(0.6rem + 0.6vw);
   }
 }
+
 .shadow {
   text-shadow: 0.1rem 0.1rem 0.1rem black, 0.2rem 0.2rem 0.2rem black;
 }
+
 .intro {
   font-family: "Great Vibes", cursive;
   font-size: calc(1.5rem + 1.5vw);
   color: var(--color4);
 }
+
 h6,
 .h6 {
   font-size: calc(0.7rem + 1.5vw);
 }
+
 .commenter {
   font-size: 1.2rem;
   color: #fff;
 }
 
 /* Titulos en Carrusel */
+
 .carousel-caption {
   position: absolute;
   top: 0%;
@@ -105,6 +125,7 @@ h6,
   color: #fff;
   text-align: center;
 }
+
 .box-bottom {
   position: absolute;
   bottom: 0%;
@@ -112,11 +133,13 @@ h6,
 }
 
 /* Boton Formularios */
+
 .btn-primary {
   color: var(--color5);
   background-color: var(--color3);
   border-color: var(--color2);
 }
+
 .btn-primary:hover {
   color: var(--color5);
   background-color: var(--color4);
@@ -124,6 +147,7 @@ h6,
 }
 
 /* Campos de Formularios */
+
 .form-control {
   display: block;
   width: 100%;
