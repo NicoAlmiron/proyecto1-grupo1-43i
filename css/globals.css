@@ -178,14 +178,13 @@ font-family: 'Bender', sans-serif; */
 }
 
 /* Botones en Forms */
-/* .btnpad {
+.btnredondeado {
   display: inline-block;
   padding: 0.2rem 0.75rem;
   margin-top: 0.085rem;
   margin-bottom: 0.085rem;
   font-size: 1rem;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
- */
