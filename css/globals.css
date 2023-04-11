@@ -1,5 +1,6 @@
 /* Familia de Fuentes desde: (https://fonts.google.com)
-font-family: 'Great Vibes', cursive; */
+font-family: 'Great Vibes', cursive;
+font-family: 'Roboto Condensed';*/
 
 /* Familia de Fuentes desde: (https://www.cdnfonts.com/)
 font-family: 'Bender', sans-serif; */
@@ -102,8 +103,11 @@ font-family: 'Bender', sans-serif; */
 .GreatVives {
   font-family: "Great Vibes", cursive;
 }
-.Bender {
+.bender {
   font-family: "Bender", sans-serif;
+}
+.robotocondensed {
+  font-family: "Roboto Condensed", sans-serif;
 }
 .fs-7 {
   font-size: 0.75rem;
@@ -155,10 +159,33 @@ font-family: 'Bender', sans-serif; */
   background-size: 100%;
 }
 
-/* Colores Modificados */
+/* Clases de colores modificadas */
 .bg-dark {
   background-color: var(--primary) !important;
 }
 .bg-black {
   background-color: black;
 }
+
+.btn-outline-warning {
+  color: var(--fourth);
+  border-color: var(--fourth);
+}
+.btn-outline-warning:hover {
+  color: #000;
+  background-color: var(--fourth);
+  border-color: var(--fourth);
+}
+
+/* Botones en Forms */
+/* .btnpad {
+  display: inline-block;
+  padding: 0.2rem 0.75rem;
+  margin-top: 0.085rem;
+  margin-bottom: 0.085rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+ */
