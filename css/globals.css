@@ -1,0 +1,164 @@
+/* Familia de Fuentes desde: (https://fonts.google.com)
+font-family: 'Great Vibes', cursive; */
+
+/* Familia de Fuentes desde: (https://www.cdnfonts.com/)
+font-family: 'Bender', sans-serif; */
+
+:root {
+  --primary: #0b0d0f;
+  --secondary: #16181f;
+  --third: #cd9933;
+  --fourth: #999966;
+  --fondo: #efefef;
+}
+
+.cabeza-pagina {
+  background-image: url("https://img.freepik.com/foto-gratis/ingredientes-italianos-apetitosos-frescos-sabrosos-comida-fondo-oscuro-listo-cocinar-inicio-italiano-comida-saludable-concepto-cocina-viraje_1220-1820.jpg?w=2000");
+  height: 40vh;
+  background-size: cover;
+  font-family: "bender-bold";
+}
+
+.title-page-img {
+  font-family: "Great Vibes";
+  font-size: 3rem;
+}
+
+.subtitle-page-img {
+  color: var(--third);
+}
+
+.card-pageImg {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card-pageImg:hover {
+  background-color: var(--fourth);
+  transition: 1s;
+}
+
+.galeria {
+  background-color: var(--fondo);
+}
+
+.acercaDe {
+  background-image: url("https://thumbs.dreamstime.com/b/chef-con-guantes-y-una-bengala-de-delantal-sobre-sart%C3%A9n-en-cocina-restaurante-oscuro-profesional-plataforma-para-cocinar-fuego-172938669.jpg");
+  height: 40vh;
+  background-size: cover;
+}
+
+.titulo-acercade {
+  color: white;
+  font-family: "Great Vibes";
+  font-size: 3rem;
+}
+
+.login {
+  background-image: url("https://media.istockphoto.com/id/1191675284/es/foto/mesa-de-madera-real-vac%C3%ADa-con-reflexi%C3%B3n-ligera-sobre-la-escena-en-el-restaurante-pub-o-bar-por.jpg?s=612x612&w=0&k=20&c=hubFY0hfHFjHVf0NwrDslYEaGOwss_E4rbCIsfNpdKw=");
+  height: 40vh;
+  background-size: cover;
+}
+
+.titulo-login {
+  font-family: "great vibes";
+  font-size: 6rem;
+}
+
+.header-login {
+  background-image: url("https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudCUyMHdpbmRvd3xlbnwwfHwwfHw%3D&w=1000&q=80");
+  height: 50vh;
+  background-size: cover;
+}
+
+.logo-modal {
+  height: 2.5rem;
+}
+
+.header-index {
+  height: 50vh;
+}
+
+.bg-section-index {
+  background-color: #999966;
+}
+
+.bg-card {
+  background-color: #7c7c7c !important;
+}
+
+.bg-card-index {
+  background-color: #bdbdbd;
+}
+
+.header-contacto {
+  background-image: url("https://realidadsm.com/wp-content/uploads/2021/02/02-2-940x627.jpg");
+  height: 50vh;
+  background-size: cover;
+}
+
+/* Cambios del 1st Test, Responsable: Mauricio*/
+/* Tipografia */
+.GreatVives {
+  font-family: "Great Vibes", cursive;
+}
+.Bender {
+  font-family: "Bender", sans-serif;
+}
+.fs-7 {
+  font-size: 0.75rem;
+}
+@media (min-width: 360px) {
+  .fs-7 {
+    font-size: calc(0.6rem + 0.6vw);
+  }
+}
+.shadow {
+  text-shadow: 0.1rem 0.1rem 0.1rem black, 0.2rem 0.2rem 0.2rem black;
+}
+.intro {
+  font-family: "Great Vibes", cursive;
+  font-size: calc(1.5rem + 1.5vw);
+  color: var(--color4);
+}
+
+/* Boton Hamburguesa Modificado */
+.navbar-toggler {
+  padding: 0.25rem 0.25rem;
+  font-size: 1rem;
+  line-height: 1;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .navbar-toggler {
+    transition: none;
+  }
+}
+.navbar-toggler:hover {
+  text-decoration: none;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem;
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+/* Colores Modificados */
+.bg-dark {
+  background-color: var(--primary) !important;
+}
+.bg-black {
+  background-color: black;
+}

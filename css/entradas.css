@@ -11,6 +11,7 @@ font-family: 'Bender', sans-serif; */
   --color3: #cd9933;
   --color4: #999966;
   --color5: #000000;
+  --color6: #7c7c7c;
 }
 
 /* Clases de Colores */
@@ -35,6 +36,9 @@ font-family: 'Bender', sans-serif; */
 .color5 {
   color: var(--color5) !important;
 }
+.color6 {
+  color: var(--color6) !important;
+}
 
 /* Titulo en Navbar */
 .navbar-brand {
@@ -42,7 +46,7 @@ font-family: 'Bender', sans-serif; */
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-family: "Bender", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
   white-space: nowrap;
@@ -51,7 +55,7 @@ font-family: 'Bender', sans-serif; */
 /* Boton del NavBar */
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 0;
   background-color: transparent;
   border: 0px solid transparent;
@@ -59,7 +63,7 @@ font-family: 'Bender', sans-serif; */
   transition: box-shadow 0.15s ease-in-out;
 }
 
-/* Fuentes */
+/* Tipografia */
 .GreatVives {
   font-family: "Great Vibes", cursive;
 }
@@ -69,16 +73,76 @@ font-family: 'Bender', sans-serif; */
 .fs-7 {
   font-size: 0.75rem;
 }
+@media (min-width: 360px) {
+  .fs-7 {
+    font-size: calc(0.6rem + 0.6vw);
+  }
+}
 .shadow {
   text-shadow: 0.1rem 0.1rem 0.1rem black, 0.2rem 0.2rem 0.2rem black;
 }
+.intro {
+  font-family: "Great Vibes", cursive;
+  font-size: calc(1.5rem + 1.5vw);
+  color: var(--color4);
+}
+h6,
+.h6 {
+  font-size: calc(0.7rem + 1.5vw);
+}
+.commenter {
+  font-size: 1.2rem;
+  color: #fff;
+}
 
-/* Titulos en Carrousel */
+/* Titulos en Carrusel */
 .carousel-caption {
   position: absolute;
+  top: 0%;
+  font-size: 0.5rem;
   right: 5%;
-  bottom: 5%;
   left: 5%;
   color: #fff;
-  text-align: left;
+  text-align: center;
+}
+.box-bottom {
+  position: absolute;
+  bottom: 0%;
+  text-align: start;
+}
+
+/* Boton Formularios */
+.btn-primary {
+  color: var(--color5);
+  background-color: var(--color3);
+  border-color: var(--color2);
+}
+.btn-primary:hover {
+  color: var(--color5);
+  background-color: var(--color4);
+  border-color: var(--color2);
+}
+
+/* Campos de Formularios */
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color6);
+  background-color: var(--color1);
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fotoperfil {
+  width: 70px;
+  border-radius: 50%;
 }

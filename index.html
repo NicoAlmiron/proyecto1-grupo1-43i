@@ -4,18 +4,310 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.cdnfonts.com/css/bender" rel="stylesheet">
     <script src="https://kit.fontawesome.com/405d5358c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
     <title>DECRYPTED</title>
 </head>
 
-<body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<body class="bg-black">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-md-top">
+        <div class="container-fluid">
+            <div>
+                <img style="width: 2rem" src="/img/logonav.png" alt="logo nav">
+            </div>
+            <a class="navbar-brand Bender" href="/index.html">Decrypted
+                <span style="font-size: 10px;color:#999966;"> Café & Restó</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" ,
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/pages/login.html">Registrarse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/pages/galeriaDeImg.html">Galeria de imagenes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/pages/contacto.html">Contactanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/pages/acercaDe.html">Acerca de Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="container-fluid justify-content-start">
+                            <a href="/pages/login.html" class="text-decoration-none">
+                                <button class="btn btn-outline-warning me-2 my-3 my-md-0" type="button">Inicia
+                                    sesion</button>
+                            </a>
+                            <button class="btn btn-outline-success me-2 my-3 my-md-0" type="button"
+                                data-bs-toggle="modal" data-bs-target="#modalSuscripcion">Suscribete!</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="modalSuscripcion" tabindex="-1" aria-labelledby="suscripcionLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark ">
+                    <h5 class="text-white">Decrypted
+                        <span style="font-size: 10px;color:#999966;">Café & Restó</span>
+                    </h5>
+                    <img src="/img/logonav.jpeg" alt="logo modal" class="logo-modal">
+                    <button type="button"
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary btn-close"
+                        data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+                <div class="modal-body">
+                    <div class="card mb-3 shadow m-4">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center card-modal">
+                            <h5 class="card-title text-center">Suscripcion <span class="badge bg-warning">Gratis!</span>
+                            </h5>
+                            <ul>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Acceso
+                                    ilimitado a nuestro contido</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Noticias
+                                    destacadas y exclusivas</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-xmark me-2 text-danger"></i></i>Crear y
+                                    compartir tus articulos</li>
+                                <li class="card-text my-3"><i
+                                        class="fa-solid fa-xmark me-2 text-danger"></i></i>Beneficios y Promociones</li>
+                            </ul>
+                            <a href="/pages/error404.html"><button
+                                    class="btn btn-outline-success">Suscribirme</button></a>
+                        </div>
+                    </div>
+                    <div class="card mb-3 shadow m-4">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center card-modal">
+                            <h5 class="card-title text-center">Suscripcion <span class="badge bg-primary">Premium</span>
+                            </h5>
+                            <ul>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Acceso
+                                    ilimitado a nuestro contido</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Noticias
+                                    destacadas y exclusivas</li>
+                                <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i></i>Crear
+                                    y compartir tus articulos</li>
+                                <li class="card-text my-3"><i
+                                        class="fa-solid fa-check me-2 text-success"></i></i>Beneficios y Promociones
+                                </li>
+                            </ul>
+                            <a href="/pages/error404.html"><button
+                                    class="btn btn-outline-success">Suscribirme</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/Platos-004.jpg" class="d-block w-100" alt="imagen-carrusel-1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/Platos-005.jpg" class="d-block w-100" alt="imagen-carrusel-2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/Platos-014.jpg" class="d-block w-100" alt="imagen-carrusel-3">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/Resto-002.jpg" class="d-block w-100" alt="imagen-carrusel-4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <main class="d-flex justify-content-center ">
+        <section class="container d-flex flex-column flex-md-row">
+            <div class="col mt-4">
+                <article>
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="card col-md-8 my-3 px-md-0 bg-card">
+                            <img src="/img/Platos-006.jpg" class="card-img-top rounded-top" alt="plato de comida">
+                            <div class="card-body text-white">
+                                <h4 class="card-title text-warning">Berenjenas rellenas estilo turco</h4>
+                                <p class="card-text ">Esta receta de berenjenas rellenas estilo turco (Imam Bayildi) se
+                                    prepara con verduras y un toque de especias. El plato es sencillo y sabroso.</p>
+                                <a href="/pages/entradas.html" class="btn btn-warning">Ver mas</a>
+                            </div>
+                        </div>
+                        <div class="card col-md-8 my-3 px-md-0 bg-card">
+                            <img src="/img/Platos-007.jpg" class="card-img-top rounded-top" alt="plato de comida">
+                            <div class="card-body text-white">
+                                <h4 class="card-title text-warning">Card title</h4>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="/pages/entradas.html" class="btn btn-warning">Ver mas</a>
+                            </div>
+                        </div>
+                        <div class="card col-md-8 my-3 px-md-0 bg-card">
+                            <img src="/img/Platos-008.jpg" class="card-img-top rounded-top" alt="plato de comida">
+                            <div class="card-body text-white">
+                                <h4 class="card-title text-warning">Card title</h4>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="/pages/entradas.html" class="btn btn-warning">Ver mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="d-flex justify-content-center align-items-center my-md-3">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link text-warning" href="#">Previous</a></li>
+                            <li class="page-item"><a class="page-link text-warning" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link text-warning" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link text-warning" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link text-warning" href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                </article>
+            </div>
+            <div class="col">
+                <article class="my-md-3 mb-3">
+                    <nav class="navbar bg-body-tertiary">
+                        <div class="container-fluid d-flex flex-column-reverse">
+                            <form class="d-flex" role="search">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </article>
+                <article class="my-md-4 my-4">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active bg-secondary"
+                            aria-current="true">
+                            CATEGORIAS
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Cafeteria</a>
+                        <a href="#" class="list-group-item list-group-item-action">Menu</a>
+                        <a href="#" class="list-group-item list-group-item-action">Postres</a>
+                        <a class="list-group-item list-group-item-action">Coctelerias</a>
+                    </div>
+                </article>
+                <article class="my-md-4 d-none d-md-flex">
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                        <h5>Suscribete a Club DECRYPTED</h5>
+                        <P class="text-center">consigue descuentos y reservas explusivas en los mejores restaurantes</P>
+                        <div class="card mb-3 shadow m-4">
+                            <div
+                                class="card-body d-flex flex-column justify-content-center align-items-center card-modal bg-card-index rounded-3 shadow">
+                                <h5 class="card-title text-center"><span class="badge bg-warning">Gratis!</span></h5>
+                                <ul>
+                                    <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Acceso
+                                        ilimitado a nuestro contido</li>
+                                    <li class="card-text my-3"><i
+                                            class="fa-solid fa-check me-2 text-success"></i>Noticias destacadas y
+                                        exclusivas</li>
+                                    <li class="card-text my-3"><i
+                                            class="fa-solid fa-xmark me-2 text-danger"></i></i>Crear y compartir tus
+                                        articulos</li>
+                                    <li class="card-text my-3"><i
+                                            class="fa-solid fa-xmark me-2 text-danger"></i></i>Beneficios y Promociones
+                                    </li>
+                                </ul>
+                                <a href="/pages/error404.html"><button class="btn btn-success">Suscribirme</button></a>
+                            </div>
+                        </div>
+                        <div class="card mb-3 shadow m-4">
+                            <div
+                                class="card-body d-flex flex-column justify-content-center align-items-center card-modal bg-card-index rounded-3 shadow">
+                                <h5 class="card-title text-center"><span class="badge bg-primary">Premium</span></h5>
+                                <ul>
+                                    <li class="card-text my-3"><i class="fa-solid fa-check me-2 text-success"></i>Acceso
+                                        ilimitado a nuestro contido</li>
+                                    <li class="card-text my-3"><i
+                                            class="fa-solid fa-check me-2 text-success"></i>Noticias destacadas y
+                                        exclusivas</li>
+                                    <li class="card-text my-3"><i
+                                            class="fa-solid fa-check me-2 text-success"></i></i>Crear y compartir tus
+                                        articulos</li>
+                                    <li class="card-text my-3"><i
+                                            class="fa-solid fa-check me-2 text-success"></i></i>Beneficios y Promociones
+                                    </li>
+                                </ul>
+                                <a href="/pages/error404.html"><button class="btn btn-success">Suscribirme</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="container-fluid">
+            <div class="row p-5 pb-2 bg-dark text-white">
+                <div class="col-12 col-md-6 col-lg-4 mt-5 text-center">
+                    <div class="d-md-none">
+                        <img style="width: 2rem" src="/img/logonav.jpeg" alt="logo nav" class="mx-2">
+                        <a class="text-decoration-none" href="/index.html">
+                            <span class="text-white">Decrypted</span>
+                            <span style="font-size: 10px;color:#999966;">Café & Restó</span>
+                        </a>
+                    </div>
+                    <div class="d-none d-md-flex">
+                        <div>
+                            <a href="/index.html">
+                                <img src="/img/Decrypted-00.jpeg" alt="logo" class="card-img w-50">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-5 d-flex flex-column justify-content-center align-items-center">
+                    <div class="text-center">
+                        <p class="h5 fw-bold mb-3">Redes Sociales</p>
+                    </div>
+                    <ul class="p-0">
+                        <li class="mb-3">
+                            <a class="text-white text-decoration-none" href="/pages/error404.html"> <i
+                                    class="fa-brands fa-facebook me-2"></i> Facebook</a>
+                        </li>
+                        <li class="mb-3">
+                            <a class="text-white text-decoration-none" href="/pages/error404.html"> <i
+                                    class="fa-brands fa-instagram me-2"></i> Instagram</a>
+                        </li>
+                        <li class="mb-3">
+                            <a class="text-white text-decoration-none" href="/pages/error404.html"> <i
+                                    class="fa-brands fa-twitter me-2"></i> Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div
+                    class="col-12 col-md-12 col-lg-4 mt-5 d-flex flex-column justify-content-center align-items-center">
+                    <a href="/pages/acercaDe.html" class="text-decoration-none text-white">
+                        <p class="h5 text-center">Acerca de Nosotros</p>
+                    </a>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+                <article class="container-fluid mt-5">
+                    <p class="text-white text-center">
+                        &copy; Copyright - All Rights Reserved
+                    </p>
+                </article>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
