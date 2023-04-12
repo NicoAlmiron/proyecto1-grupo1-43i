@@ -316,3 +316,7 @@
     background-color: var(--fourth);
     transition: 0.2s;
 }
+
+.modal-footer {
+    border-top: 0px;
+}
