@@ -1,260 +1,294 @@
 :root {
-  --primary: #0b0d0f;
-  --secondary: #16181f;
-  --third: #cd9933;
-  --fourth: #999966;
-  --fondo: #efefef;
+    --primary: #0b0d0f;
+    --secondary: #16181f;
+    --third: #cd9933;
+    --fourth: #999966;
+    --fondo: #efefef;
+}
+
+.color3 {
+    color: var(--third) !important;
+}
+
+.color4 {
+    color: var(--fourth) !important;
 }
 
 .cabeza-pagina {
-  background-image: url("https://static.vecteezy.com/system/resources/previews/003/823/542/original/spices-for-use-as-cooking-ingredients-on-a-wooden-background-with-fresh-vegetables-healthy-food-herbs-organic-vegetables-on-the-table-raw-materials-of-cooking-preparation-tom-yum-free-photo.jpg");
-  height: 40vh;
-  background-size: cover;
-  font-family: "bender-bold";
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/823/542/original/spices-for-use-as-cooking-ingredients-on-a-wooden-background-with-fresh-vegetables-healthy-food-herbs-organic-vegetables-on-the-table-raw-materials-of-cooking-preparation-tom-yum-free-photo.jpg");
+    height: 40vh;
+    background-size: cover;
+    font-family: "bender-bold";
 }
 
 .title-page-img {
-  font-family: "Great Vibes";
-  font-size: 3rem;
+    font-family: "Great Vibes";
+    font-size: 3rem;
 }
 
 .subtitle-page-img {
-  color: var(--third);
+    color: var(--third);
 }
 
 .card-pageImg {
-  cursor: pointer;
-  border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .card-pageImg:hover {
-  background-color: var(--fourth);
-  transition: 1s;
+    background-color: var(--fourth);
+    transition: 1s;
+}
+
+.card-index {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
 }
 
 .galeria {
-  background-color: rgb(39, 39, 39);
+    background-color: rgb(39, 39, 39);
 }
 
 .acercaDe {
-  background-image: url("https://thumbs.dreamstime.com/b/chef-con-guantes-y-una-bengala-de-delantal-sobre-sart%C3%A9n-en-cocina-restaurante-oscuro-profesional-plataforma-para-cocinar-fuego-172938669.jpg");
-  height: 40vh;
-  background-size: cover;
+    background-image: url("https://thumbs.dreamstime.com/b/chef-con-guantes-y-una-bengala-de-delantal-sobre-sart%C3%A9n-en-cocina-restaurante-oscuro-profesional-plataforma-para-cocinar-fuego-172938669.jpg");
+    height: 40vh;
+    background-size: cover;
 }
 
 .titulo-acercade {
-  color: white;
-  font-family: "Great Vibes";
-  font-size: 3rem;
+    color: white;
+    font-family: "Great Vibes";
+    font-size: 3rem;
 }
 
 .login {
-  background-image: url("https://media.istockphoto.com/id/1191675284/es/foto/mesa-de-madera-real-vac%C3%ADa-con-reflexi%C3%B3n-ligera-sobre-la-escena-en-el-restaurante-pub-o-bar-por.jpg?s=612x612&w=0&k=20&c=hubFY0hfHFjHVf0NwrDslYEaGOwss_E4rbCIsfNpdKw=");
-  height: 40vh;
-  background-size: cover;
+    background-image: url("https://media.istockphoto.com/id/1191675284/es/foto/mesa-de-madera-real-vac%C3%ADa-con-reflexi%C3%B3n-ligera-sobre-la-escena-en-el-restaurante-pub-o-bar-por.jpg?s=612x612&w=0&k=20&c=hubFY0hfHFjHVf0NwrDslYEaGOwss_E4rbCIsfNpdKw=");
+    height: 40vh;
+    background-size: cover;
 }
 
 .titulo-login {
-  font-family: "great vibes";
-  font-size: 6rem;
+    font-family: "great vibes";
+    font-size: 6rem;
 }
 
 .header-login {
-  background-image: url("https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudCUyMHdpbmRvd3xlbnwwfHwwfHw%3D&w=1000&q=80");
-  height: 50vh;
-  background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudCUyMHdpbmRvd3xlbnwwfHwwfHw%3D&w=1000&q=80");
+    height: 50vh;
+    background-size: cover;
 }
 
 .logo-modal {
-  height: 2.5rem;
+    height: 2.5rem;
 }
 
 .header-index {
-  height: 50vh;
+    height: 50vh;
 }
 
 .bg-card {
-  background-color: #7c7c7c !important;
+    background-color: var(--secondary) !important;
+}
+
+.bg-card-index {
+    background-color: #16181f;
 }
 
 .header-contacto {
-  background-image: url("https://realidadsm.com/wp-content/uploads/2021/02/02-2-940x627.jpg");
-  height: 50vh;
-  background-size: cover;
+    background-image: url("https://realidadsm.com/wp-content/uploads/2021/02/02-2-940x627.jpg");
+    height: 50vh;
+    background-size: cover;
 }
 
 .GreatVives {
-  font-family: "Great Vibes", cursive;
+    font-family: "Great Vibes", cursive;
 }
 
 .bender {
-  font-family: "Bender", sans-serif;
+    font-family: "Bender", sans-serif;
 }
 
 .robotocondensed {
-  font-family: "Roboto Condensed", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .fs-7 {
-  font-size: 0.75rem;
+    font-size: 0.75rem;
 }
 
 @media (min-width: 360px) {
-  .fs-7 {
-    font-size: calc(0.6rem + 0.6vw);
-  }
+    .fs-7 {
+        font-size: calc(0.6rem + 0.6vw);
+    }
 }
 
 .shadow {
-  text-shadow: 0.1rem 0.1rem 0.1rem black, 0.2rem 0.2rem 0.2rem black;
+    text-shadow: 0.1rem 0.1rem 0.1rem black, 0.2rem 0.2rem 0.2rem black;
 }
 
 .intro {
-  font-family: "Great Vibes", cursive;
-  font-size: calc(1.5rem + 1.5vw);
-  color: var(--color4);
+    font-family: "Great Vibes", cursive;
+    font-size: calc(1.5rem + 1.5vw);
+    color: var(--color4);
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.25rem;
-  font-size: 1rem;
-  line-height: 1;
-  background-color: transparent;
-  border: none;
-  border-radius: 0.25rem;
-  transition: box-shadow 0.15s ease-in-out;
+    padding: 0.25rem 0.25rem;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: transparent;
+    border: none;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .navbar-toggler {
-    transition: none;
-  }
+    .navbar-toggler {
+        transition: none;
+    }
 }
 
 .navbar-toggler:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .navbar-toggler:focus {
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem;
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem;
 }
 
 .navbar-toggler-icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 .bg-dark {
-  background-color: var(--primary) !important;
+    background-color: var(--primary) !important;
 }
 
 .bg-black {
-  background-color: rgb(24, 24, 24);
+    background-color: rgb(24, 24, 24);
 }
 
 .btn-outline-warning {
-  color: var(--fourth);
-  border-color: var(--fourth);
+    color: var(--fourth);
+    border-color: var(--fourth);
 }
 
 .btn-outline-warning:hover {
-  color: #000;
-  background-color: var(--fourth);
-  border-color: var(--fourth);
+    color: #000;
+    background-color: var(--fourth);
+    border-color: var(--fourth);
 }
 
 .page-link {
-  background-color: rgb(24, 24, 24) !important;
+    background-color: rgb(24, 24, 24) !important;
 }
 
 .btnredondeado {
-  display: inline-block;
-  padding: 0.2rem 0.75rem;
-  margin-top: 0.085rem;
-  margin-bottom: 0.085rem;
-  font-size: 1rem;
-  border-radius: 1rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    display: inline-block;
+    padding: 0.2rem 0.75rem;
+    margin-top: 0.085rem;
+    margin-bottom: 0.085rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .fotoperfil {
-  width: 70px;
-  border-radius: 50%;
+    width: 70px;
+    border-radius: 50%;
 }
 
 .commenter {
-  font-size: 1.2rem;
-  color: #fff;
+    font-size: 1.2rem;
+    color: #fff;
 }
 
 @media (max-width: 300px) {
-  .btncomments {
-    display: flex;
-    flex-direction: column;
-  }
+    .btncomments {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .imagenblog {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-size: cover;
-  width: 100vw;
-  height: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+    width: 100vw;
+    height: 60vw;
 }
 
 .imagen001 {
-  background-image: url(/img/Platos-003.jpg);
+    background-image: url(/img/Platos-003.jpg);
 }
 
 .imagen002 {
-  background-image: url(/img/Platos-015.jpg);
+    background-image: url(/img/Platos-015.jpg);
 }
 
 .imagen003 {
-  background-image: url(/img/Platos-016.jpg);
+    background-image: url(/img/Platos-016.jpg);
 }
 
 .imagen004 {
-  background-image: url(/img/Platos-017.jpg);
+    background-image: url(/img/Platos-017.jpg);
+}
+
+.imagebanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    max-width: 98%;
+    height: 21.3vw;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.banner001 {
+    background-image: url(/img/Banner-001.gif);
 }
 
 .tituloheader {
-  font-size: 0.5rem;
-  right: 5%;
-  left: 5%;
-  color: #fff;
-  text-align: center;
+    font-size: 0.5rem;
+    right: 5%;
+    left: 5%;
+    color: #fff;
+    text-align: center;
 }
 
 .titulos {
-  font-size: calc(0.7rem + 1.5vw);
-  margin-left: 5vw;
-  margin-right: 5vw;
-  padding-top: 3vw;
+    font-size: calc(0.7rem + 1.5vw);
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 3vw;
 }
 
 .subtitulos {
-  font-size: calc(0.5rem + 1.5vw);
+    font-size: calc(0.5rem + 1.5vw);
 }
 
 .autorheader {
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  margin-bottom: 5vw;
-}
-
-.separador {
-  margin-top: 30vw;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
 }
