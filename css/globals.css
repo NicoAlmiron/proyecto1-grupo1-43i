@@ -36,7 +36,7 @@
 }
 
 .card-pageImg:hover {
-    background-color: var(--fourth);
+    background-color: var(--secondary);
     transition: 1s;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .acercaDe {
-    background-image: url("https://thumbs.dreamstime.com/b/chef-con-guantes-y-una-bengala-de-delantal-sobre-sart%C3%A9n-en-cocina-restaurante-oscuro-profesional-plataforma-para-cocinar-fuego-172938669.jpg");
+    background-image: url("/img/abac-barcelona.jpeg");
     height: 40vh;
     background-size: cover;
 }
@@ -195,6 +195,7 @@
 
 .page-link {
     background-color: rgb(24, 24, 24) !important;
+    border: var(--third) solid 1px;
 }
 
 .btnredondeado {
@@ -291,4 +292,27 @@
     margin-left: 5vw;
     margin-right: 5vw;
     margin-bottom: 5vw;
+}
+
+.action-bottom {
+    border-bottom: rgb(24, 24, 24) solid 4px;
+}
+
+.action-bottom:hover {
+    border-bottom: var(--third) solid 4px;
+    transition: 1s;
+}
+
+.action-nav {
+    border-bottom: var(--primary) solid 4px;
+}
+
+.action-nav:hover {
+    border-bottom: var(--third) solid 4px;
+    transition: 1s;
+}
+
+.action-nav:active {
+    background-color: var(--fourth);
+    transition: 0.2s;
 }
