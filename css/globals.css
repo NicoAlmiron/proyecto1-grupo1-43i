@@ -173,3 +173,88 @@
 .page-link {
   background-color: rgb(24, 24, 24) !important;
 }
+
+.btnredondeado {
+  display: inline-block;
+  padding: 0.2rem 0.75rem;
+  margin-top: 0.085rem;
+  margin-bottom: 0.085rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fotoperfil {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.commenter {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+@media (max-width: 300px) {
+  .btncomments {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.imagenblog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  width: 100vw;
+  height: 60vw;
+}
+
+.imagen001 {
+  background-image: url(/img/Platos-003.jpg);
+}
+
+.imagen002 {
+  background-image: url(/img/Platos-015.jpg);
+}
+
+.imagen003 {
+  background-image: url(/img/Platos-016.jpg);
+}
+
+.imagen004 {
+  background-image: url(/img/Platos-017.jpg);
+}
+
+.tituloheader {
+  font-size: 0.5rem;
+  right: 5%;
+  left: 5%;
+  color: #fff;
+  text-align: center;
+}
+
+.titulos {
+  font-size: calc(0.7rem + 1.5vw);
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 3vw;
+}
+
+.subtitulos {
+  font-size: calc(0.5rem + 1.5vw);
+}
+
+.autorheader {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 5vw;
+}
+
+.separador {
+  margin-top: 30vw;
+}
